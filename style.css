@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: linear-gradient(180deg,
+        rgb(0, 0, 0) 20%,
+        rgb(43, 0, 0) 50%,
+        rgb(68, 0, 0) 100%);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
+}
+
+/* Navigation bar */
+#header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    background-color: black;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#nav-bar a:hover {
+    background-color: rgba(204, 204, 204, 0.2);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.elevate-logo {
+    width: 50px;
+    border-radius: 50%;
+}
+
+/* Cover */
+.title-cover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    user-select: none;
+}
+
+.text-logo {
+    font-size: 6em;
+    font-weight: 900;
+    font-style: italic; 
+}
+
+.custom-a {
+    -webkit-text-stroke: 8px #e63946;
+    color: #e63946;
+}
+
+.place-logo {
+    margin-top: -15px;
+    font-style: italic;
+    letter-spacing: 30px;
+}
+
+/* What is Elevate? */
+/* Photos */
+.intro-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin: 0 30px;
+}
+
+.gallery-container {
+    column-count: 4;
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.elev-pics {
+    margin: 3px;
+    width: 140px;
+    border-radius: 10px;
+}
+
+/* Introduction */
+.elevate-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 1.7em;
+    width: 60%;
+    margin: 0 auto; 
+}
+
+.highlight {
+    font-weight: 1000;
+    color: red;
+    letter-spacing: 1.5px;
+}
+
+.level {
+    margin-top: 50px;
+}
+
+/* Mission & Vision */
+.mission {
+    width: 90%;
+    margin: 80px auto;
+    border: none;
+    border-top: 2px solid white;
+}
+
+.logo {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.elevate, .ccf  {
+    width: 80px;
+    border-radius: 50%;  
+}
+
+.mission-vision {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    text-align: center;
+    font-size: 1.7em;
+    line-height: 1.5;
+}
+
+.mv-title {
+    font-size: 2em;
+    font-weight: 1000;
+    margin-bottom: 10px;
+}
+
+.mv-container {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    padding: 50px 50px;
+}
+
+
